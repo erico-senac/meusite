@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover{
+    color: blueviolet;
+}
+a{
+    color: rgb(24, 127, 178);
+    background-color: rgb(152, 208, 236);
+    text-decoration: wavy;
+}
+
+li > h3{
+    background-color: rgb(255, 203, 219);
+}
+
+strong{
+    font-size: 1.2rem;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(100, 0, 0));
+}
+
+ol > li > h3:hover {
+    background-color: rgb(24, 127, 178) ;
+}
