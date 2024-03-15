@@ -5,22 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+        /* seletor */
+            background-color: rgb(228, 195, 227);
+            /* propriedade     :  valor */
+        }        
+
+        a{
+            color: #ffffff;
+        }
+
+        li{
+            color: #ffffff;
+            margin: 10px;
+        }
+
+        li#professor{
+            margin: 20px 10px;
+            padding: 15px;
+            border: double blue 15px;
+            border-radius: 25%;
+        }
+
+        h2{
+            font-weight: 100;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        a:hover{
+            color: hsl(123, 30%, 50%);
+        }
+
+        a{
+            text-decoration: none;
+            cursor: crosshair;
+        }
+
+        #professor{
+            color: chocolate;
+        }
+
+        .meninos{
+            background-color: pink;
+        }
+
+        .meninas{
+            background-color: cyan;
+        }
+
+        ol{
+            list-style: upper-roman;
+        }
+    </style>
 </head>
 <body>
     <h2>
         <ol>
-            <li><a href="http://10.9.41.26:5500/perfil.html">Érico - 10.9.41.26</a></li>
-            <li><a href="http://10.9.41.6:5500/curriculo.html">Gabriel - 10.9.41.6</a></li>
-            <li><a href="http://10.9.41.17:5500/index.html">Alex - 10.9.41.17</a></li>
-            <li><a href="http://10.9.41.51:5500/perfil3.html">Clara - 10.9.41.51</a></li>
-            <li><a href="http://10.9.41.14:5500/atividade.html">Juliana- 10.9.41.14</a></li>
-            <li><a href="http://10.9.41.5:5500/tabela4.html">Josias - 10.9.41.5</a></li>
-            <li><a href="http://10.9.41.8:5500/tabela.html">Felipe - 10.9.41.8</a></li>
-            <li><a href="http://10.9.41.11:5500/index.html">Junior - 10.9.41.11</a></li>
-            <li><a href="http://10.9.41.16:5500/meu-site/cc1.html">Eduarda- 10.9.41.16</a></li>
-            <li><a href="http://10.9.41.4:5500/ex2.html">Kelvy - 10.9.41.4</a></li>
-            <li><a href="http://10.9.41.15:5500/curriculo.html">Mikael - 10.9.41.15</a></li>
-            <li><a href="http://10.9.41.20:5500/perfil.html">Camila - 10.9.41.20</a></li>
+            <li id="professor"><a  href="http://10.9.41.26:5500/perfil.html">Érico - 10.9.41.26</a></li>
+            <li><a class="meninos" href="http://10.9.41.6:5500/curriculo.html">Gabriel - 10.9.41.6</a></li>
+            <li><a class="meninos" href="http://10.9.41.17:5500/index.html">Alex - 10.9.41.17</a></li>
+            <li><a class="meninas" href="http://10.9.41.51:5500/perfil3.html">Clara - 10.9.41.51</a></li>
+            <li><a class="meninas" href="http://10.9.41.14:5500/atividade.html">Juliana- 10.9.41.14</a></li>
+            <li><a class="meninos" href="http://10.9.41.5:5500/tabela4.html">Josias - 10.9.41.5</a></li>
+            <li><a class="meninos" href="http://10.9.41.8:5500/tabela.html">Felipe - 10.9.41.8</a></li>
+            <li><a class="meninos" href="http://10.9.41.11:5500/index.html">Junior - 10.9.41.11</a></li>
+            <li><a class="meninas" href="http://10.9.41.16:5500/meu-site/cc1.html">Eduarda- 10.9.41.16</a></li>
+            <li><a class="meninos" href="http://10.9.41.4:5500/ex2.html">Kelvy - 10.9.41.4</a></li>
+            <li><a class="meninos" href="http://10.9.41.15:5500/curriculo.html">Mikael - 10.9.41.15</a></li>
+            <li><a class="meninas" href="http://10.9.41.20:5500/perfil.html">Camila - 10.9.41.20</a></li>
         </ol>
     </h2>
 </body>

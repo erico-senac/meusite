@@ -6,10 +6,10 @@ main{
 a:hover{
     color: blueviolet;
 }
+
 a{
     color: rgb(24, 127, 178);
     background-color: rgb(152, 208, 236);
-    text-decoration: wavy;
 }
 
 li > h3{
@@ -26,4 +26,22 @@ body{
 
 ol > li > h3:hover {
     background-color: rgb(24, 127, 178) ;
+}
+
+img#foto__perfil{
+    border-radius: 50%;
+    position:absolute
+}
+
+img#foto__perfil:hover{
+    cursor: pointer;
+}
+
+section > ol li{
+    display: grid;
+    grid-template-columns: 150px 300px;
+}
+
+div{
+    margin: 0;
 }
