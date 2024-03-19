@@ -29,8 +29,12 @@ ol > li > h3:hover {
 }
 
 img#foto__perfil{
-    border-radius: 50%;
-    position:absolute
+    border-radius: 50% 5% 36%;
+    position:relative;
+    border: 5px;
+    border-top-style: inset;
+    border-bottom-style: solid;
+    border-color: hsl(0, 65%, 82%);
 }
 
 img#foto__perfil:hover{
@@ -44,4 +48,59 @@ section > ol li{
 
 div{
     margin: 0;
+    background-color: white;
+}
+
+p{
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1.5px;
+}
+
+.titulo__navegador{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+    border-bottom-style: double;
+    text-transform: uppercase;
+    color:antiquewhite;
+    border-color: black;
+}
+
+body > h1{
+    color: orange;
+}
+html h1{
+    color: purple;
+}
+
+div ol, div ul{
+    display:flex ;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li:first-child{
+    color: white;
+    background-color: black;
+}
+
+li:nth-child(3){
+    background-color: purple;
+}
+
+li:last-child:hover{
+    background-color: darkseagreen;
+    cursor: grabbing;
+}
+
+[offset]{
+    background-color: red;
+}
+
+[offset="rosa"]{
+    background-color: pink;
 }
