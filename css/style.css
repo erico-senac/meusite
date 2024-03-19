@@ -77,10 +77,32 @@ html h1{
     color: purple;
 }
 
-div ol, div ul{
-    display:flex ;
-    justify-content: space-evenly;
-    list-style: none;
+nav{
+    border-top: 1px solid;
+    width: calc(100% +40px);
+    margin-left: -20px;
+}
+nav ol,
+nav ul{
+    margin: 5px 0 0 0 ;
+    padding: 0;
+    width: 100%;
+    background: #999;
+}
+
+nav ul li,
+nav ol li {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    background: #999;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 li:first-child{
